@@ -95,11 +95,6 @@ export default class App extends Component {
         const b = normalizeLayout(newLayout);
         const changes = detailedDiff(a, b);
 
-        console.log("created:", changes.added);
-        console.log("updated:", changes.updated);
-        console.log("deleted:", changes.deleted);
-        console.log("");
-
         const newState = {
             layout: newLayout
         };
