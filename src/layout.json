@@ -1,0 +1,10 @@
+{
+  "dockbox": {
+    "mode": "horizontal",
+    "children": [
+      {
+        "tabs": []
+      }
+    ]
+  }
+}
