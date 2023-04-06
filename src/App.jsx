@@ -156,7 +156,6 @@ export default class App extends Component {
                 />
                 <div className="top-panel">
                     <button onClick={this.handleAddTabButtonClick}>Add</button>
-                    <button onClick={this.handleSaveLayout}>Save</button>
                     <button onClick={this.handleLoadLayout}>Load</button>
                     <button onClick={this.handleResetLayout}>Reset</button>
                 </div>
